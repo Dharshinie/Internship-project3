@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .bg-container{
+        background-image:linear-gradient(rgb(34, 31, 31),rgb(254, 110, 26),rgb(250, 146, 42),rgb(39, 38, 36));
+        min-height: 100vh;
+        padding: 10px;
+    }
+    .image{
+        height:40%;
+        width:60%;
+    }
+    .heading{
+        font-weight:bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 38px;
+    }
+    .para{
+        font-weight: bold;
+        font-size: 25px;
+    }
+    .butt{
+        background-color: red;
+        color: white;
+        height:55px ;
+        width: 150px;
+        border-width: 0px;
+        border-radius: 10px;
+    }
+    .container2{
+        padding:25px;
+        margin:10px ;
+        height: 40%;
+        width: 90%;
+        color:white;
+        margin-top: 10px;
+
+    }
+    .images{
+        height:110px;
+        width: 100px;
+        border-radius: 12px;
+    }
+    </style>
+</head>
+<body>
+    <div class="bg-container">
+        <div class="row">
+            
+            <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+        <div class="container">
+            
+            <img src="https://img.freepik.com/premium-photo/pair-headphones-with-purple-orange-background_1340-45205.jpg?w=360" class="image m-3"/>
+        </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+        <div class="container2 mt-3">
+            <h1 class="heading">Blutooth HeadSet</h1>
+            <p class="para">Description</p>
+            <ul class="listItems">
+                <li>Noice reduction microphone</li>
+                <li>Water and sweat resistent device</li>
+                <li>Headband made from TR90 Material</li>
+                <li>Foidable design for increased portability</li>
+            </ul>
+            <p class="para">Price 3999/-</p>
+            <div>
+                <p class="para">View Similar Images</p>
+                <img src="https://img.freepik.com/free-photo/levitating-music-headphones-display_23-2149817602.jpg?t=st=1711179578~exp=1711183178~hmac=b29e0eeaceb08c0aebfa4358070b8d7e2171c1da9e5a70ab53ea4edf4d04d3a8&w=740" class="images"/>
+                <img src="https://img.freepik.com/free-photo/levitating-music-headphones-display_23-2149817601.jpg?t=st=1711179631~exp=1711183231~hmac=4a133546d133b82194bc6609dd57bce8e9cedc80939fcca91328d4350ca18d64&w=996" class="images"/>
+                <img src="https://img.freepik.com/free-photo/levitating-music-headphones-display_23-2149817605.jpg?t=st=1711179710~exp=1711183310~hmac=de83d6eba039ba440d415a206ca08cbf10a7fab75b58829eade8d844c8ca9584&w=996" class="images"/>
+            </div>
+            <button class="butt m-1" id="addbutton">Add to Cart</button>
+            <button class="butt">Confirm & Pay</button>
+            </div>
+            </div>
+    </div>
+    </div>
+    
+    </div>
+    <script>
+        document.getElementById("addbutton").addEventListener('click',function(){
+            alert("Product added to cart");
+        })
+    </script>
+
+</body>
+</html>
